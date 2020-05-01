@@ -2,6 +2,7 @@ describe "FormsLab::App" do
   describe "GET '/'" do
     before(:each) do
       get '/'
+      
     end
 
     it "returns a 200 status code" do
